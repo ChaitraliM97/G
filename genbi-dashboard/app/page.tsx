@@ -3,9 +3,9 @@
 import { useState } from 'react';
 import Papa from 'papaparse';
 import * as XLSX from 'xlsx';
-import { Header } from '@/components/Header';
-import { FileUpload } from '@/components/FileUpload';
-import { Dashboard } from '@/components/Dashboard';
+import { Header } from '../components/Header';
+import { FileUpload } from '../components/FileUpload';
+import { Dashboard } from '../components/Dashboard';
 
 export type DataRow = {
   [key: string]: string | number;
@@ -81,3 +81,4 @@ export default function Home() {
     </main>
   );
 }
+
